@@ -59,7 +59,7 @@ nav ul li {
 /* Start Landing Page */
 
 .bg-img{
-    background-image: url(/images/landing-Image.jpg);
+    background-image: url(../images/landing-Image.jpg);
     height: 651px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -454,7 +454,7 @@ nav ul li {
     font-size: 20px;
 }
 .bg-img-02{
-    background-image: url(/images/stylish.jpg);
+    background-image: url(../images/stylish.jpg);
     /* height: 651px; */
     background-repeat: no-repeat;
     background-size: 100% 100%;
