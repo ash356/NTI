@@ -114,6 +114,9 @@ li{
     .none{
         display: none !important;
     }
+    .top-01 .icons {
+        margin: 10% 0 !important;
+    }
     .header .container{
         border: none;
         padding: 4% 0;
@@ -265,10 +268,11 @@ li{
 .landing .left h4{
     font-size: 20px;
 }
-.landing .left ul{
+.landing .www{
     display: flex;
-    margin-top: -2%;
-    margin-left: 24%;
+    margin-top: -2.5%;
+    margin-left: 30%;
+    width: 50%;
 }
 .landing .left ul li{
     margin-left: 5%;
@@ -441,17 +445,66 @@ li{
     color: blue;
     cursor: pointer;
 }
-
+@media (max-width:767px) {
+    .landing .container{
+        display: grid;
+    }
+    .landing .left{
+        width: 100%;
+    }
+    .landing .left .www {
+        display: flex;
+        flex-wrap: nowrap !important;
+        margin-top: -5%;
+        margin-left: 25%;
+    }
+    .landing .left ul li {
+        margin-left: 0% !important;
+    }
+    .landing .left .www li {
+        margin-left: 3% !important;
+    }
+    .landing .left .down {
+        display: block;
+    }
+    .landing .one {
+        width: 100% !important;
+    }
+    .landing .two {
+        width: 100% !important;
+    }
+    .landing .left .all{
+        width: 100% !important;
+    }
+    .landing .left .lef {
+        /* margin-right: auto; */
+        margin-left: 0 !important;
+        margin-top: -3% !important;
+    }
+    .landing .left .righ {
+        margin-top: 1% !important;
+    }
+    .landing .left .top a {
+        font-size: 15px;
+    }
+    .landing .right {
+        /* display: none; */
+        margin-top: 12%;
+        width: 100%;
+        margin-left: 0%;
+    }
+}
 /* End Landing */
 /* Start Grid */
 @media (max-width:767px) {
-    .grid .container .con{
-         padding: 17% 0;
-         margin: 10% 0;
-         flex-direction: column;
-         display: grid;
-         gap: 5%;
-      }
+    .grid .container .con {
+        padding: 10% 0;
+        margin: 1% 0 10% 0;
+        flex-direction: column;
+        display: grid;
+        gap: 5%;
+        width: 100%;
+    }
       .grid .con .gri {
         width: 100% !important;
         margin: 0% !important;
@@ -464,6 +517,7 @@ li{
 }
 .grid .con{
     display: flex;
+    width: 105%;
 }
 .grid .con .gri {
     width: 30%;
@@ -516,12 +570,18 @@ li{
       }
       .article .left{
         width: 100% !important;
+        padding-bottom: 5%;
       }
-      /* .article .middle{
-        width: 100%;
-      } */
+      .article .left .one{
+        display: grid !important;
+      }
+      .article .left .one .image {
+        height: 100% !important;
+        width: 100% !important;
+      }
       .article .right{
         width: 100% !important;
+        margin-left: 0% !important;
       }
 }
 .article .container{
@@ -580,6 +640,10 @@ li{
     padding-bottom: 5%;
     width: 30%;
     /* border-left: 2px solid #f1f1f1; */
+}
+.article .right .two iframe {
+  width: 100%;
+  height:180px;
 }
 .article .right .two ul li {
     box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
