@@ -107,6 +107,18 @@ li{
     align-items: center;
     margin-left: 50%;
 }
+@media (max-width:992px) {
+    .list{
+        margin-left: 25%;
+    }
+    .header .search{
+        margin-left: 15% !important;
+    }
+    .header .container {
+        border: none;
+        padding: 2% 0;
+    }
+}
 @media (max-width: 767px) {
     .container{
         width: 90%;
@@ -229,6 +241,17 @@ li{
         color: white;
     }
 }
+@media (max-width:992px) {
+    .bg-img{
+        height: 450px;
+    }
+    .home .con {
+        top: 35%;
+    }
+    .home .con ol li p{
+        color: white;
+    }
+}
 /* End Home */
 /* Start Landing */
 @media (max-width:767px) {
@@ -246,6 +269,28 @@ li{
     }
     .landing .left .top a{
         font-size: 15px;
+    }
+}
+@media (max-width:992px) {
+    
+    .landing .container {
+        display: block !important;
+    }
+    .landing .left{
+        width: 100% !important;
+    }
+    .landing .www {
+        margin-left: 28% !important;
+    }
+    .landing .right{
+        width: 100% !important;
+    }
+    .landing .right .im .image {
+        width: 90% !important;
+        margin: 4% !important;
+    }
+    .top-01 .icons {
+        margin: 12% 0 !important;
     }
 }
 .landing {
@@ -511,6 +556,26 @@ li{
     }
     
 }
+@media (max-width:992px) {
+    .grid .container .con {
+        padding: 10% 0;
+        margin: 1% 0 10% 0;
+        flex-direction: column;
+        display: grid;
+        gap: 5%;
+        width: 100%;
+    }
+      .grid .con .gri {
+        width: 100% !important;
+        margin: 0% !important;
+    }
+    .grid .con .con-img-02 ,.con-img-01,.con-img-03 {
+        height: 350px !important;
+        max-width: 100% !important;
+    }
+    
+    
+}
 .grid{
     /* padding-top: 5%; */
     padding-bottom: 5%;
@@ -583,6 +648,31 @@ li{
         width: 100% !important;
         margin-left: 0% !important;
       }
+}
+@media (max-width:992px) {
+    .article .container{
+         flex-direction: column;
+         display: grid !important;
+      }
+      .article .left{
+        width: 100% !important;
+        padding-bottom: 5%;
+      }
+      .article .left .one{
+        display: grid !important;
+      }
+      .article .left .one .image {
+        height: 100% !important;
+        width: 100% !important;
+      }
+      .article .right{
+        width: 100% !important;
+        margin-left: 0% !important;
+      }
+      .article .right .two iframe {
+        width: 100%;
+        height: 350px !important;
+    }
 }
 .article .container{
     display: flex;
