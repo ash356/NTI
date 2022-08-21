@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none !important;
+}
+.con {
+    display: inline-flex;
+}
+.con .image {
+    width: 100px;
+    height: 100px;
+}
+ .test li {
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+    margin-bottom: 1%;
+}
+.test-01 .one{
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+    margin-bottom: 1%;
+}
+h6 {
+    font-size: 15px !important;
+}
+.test h6 {
+    padding: 4% 5% 0 5%;
+    margin-bottom: 0px;
+    
+}
+.test a{
+    font-size: 15px;
+    
+}
+.test p{
+    margin-top: 5%;
+    font-size: 12px;
+}
